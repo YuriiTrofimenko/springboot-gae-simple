@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-clean appengine:run</actionName>
+            <displayName>clean appengine:run</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>appengine:run</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-clean appengine:deploy</actionName>
+            <displayName>clean appengine:deploy</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>appengine:deploy</goal>
+            </goals>
+        </action>
+    </actions>
